@@ -1,4 +1,7 @@
 # b76
+
+Black-76 model: https://www.glynholton.com/notes/black_1976/
+
 R package to compute the Implied Volatility and plot the Volatility Skew using the Black-76 option pricing model.
 
 1. Download the tar.gz into any folder
