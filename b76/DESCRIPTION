@@ -1,0 +1,15 @@
+Package: b76
+Type: Package
+Title: Compute and Plot Implied Volatility for Black-76
+Version: 0.1.0
+Authors@R: person("Jason", "Yip", email = "jasonyip184@gmail.com", role = c("aut", "cre"))
+Maintainer: Jason Yip <jasonyip184@gmail.com>
+Description: Computes and Plot Implied Volatility from Black-76 model given options data in dataframe.
+Depends: R (>= 3.5.1)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    ggplot2,
+    quantmod
+RoxygenNote: 6.1.0

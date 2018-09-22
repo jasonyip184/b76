@@ -1,0 +1,8 @@
+df = data.frame(strike = c(50, 23, 48, 24, 52, 20,51,22,49), # the option strike - in $
+                type = c("C","P","C","P","C","P","C","P","C"), # either “c” for call option or “p” for a put option
+                optionPrice = c(1.62,0.01,1.62,0.01,1.62,0.01,1.5,0.02,1.7), # the option price - in $
+                futurePrice = c(48.03, 48.03,48.03, 48.03,48.03, 48.03, 48.03, 48.03, 48.03), # the price of the underlying future - in $
+                time_to_expiry = c(0.1423, 0.1423,0.1323, 0.1323,0.1223, 0.1223, 0.12, 0.11, 0.15))  
+
+
+getImpliedVol(df, "2018-09-18", "B")
